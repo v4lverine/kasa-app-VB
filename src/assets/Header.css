@@ -1,0 +1,16 @@
+.kasa-title-header {
+    font-size: 2.5em;
+    margin-inline: 0;
+}
+.kasa-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+.kasa-nav-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
