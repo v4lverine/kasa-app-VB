@@ -1,16 +1,23 @@
-.kasa-title-header {
-    font-size: 2.5em;
-    margin-inline: 0;
-}
 .kasa-header {
+    color: #FF6060;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: last baseline;
+    align-items: center;
+    margin: 0;
+}
+.kasa-title-header {
+    font-size: 4em;
+    margin: 0;
+}
+.kasa-links1-header, .kasa-links2-header{
+    color: #FF6060;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding-inline: 10%;
+    white-space: nowrap;
 }
 .kasa-nav-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    text-align: center;
+    margin-inline: 5%;
 }
-

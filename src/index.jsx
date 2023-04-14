@@ -7,7 +7,8 @@ import About from './pages/About_page/About.jsx';
 import Error from './pages/404/Error.jsx';
 import Lodging from './pages/Lodging_form/Lodging.jsx';
 import reportWebVitals from './reportWebVitals';
-import Header from "./components/Header.jsx";
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx'
 
 const root = createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
       <Route path='/lodging' element={<Lodging/>}/>
       <Route path ='*' element={<Error/>}/>
     </Routes>
+    <Footer />
   </BrowserRouter>
 );
 
