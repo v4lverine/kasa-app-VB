@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
+    margin-inline: 5%;
 }
 .kasa-title-header {
     font-size: 4em;
