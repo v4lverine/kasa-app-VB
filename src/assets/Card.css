@@ -1,0 +1,35 @@
+.kasa-card-list{
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    width: 100%;
+}
+.kasa-card{
+    width: 30%;
+    text-align: left;
+    padding-bottom: 10%;
+    position: relative;
+    padding-right: 2%;
+}
+.kasa-card-img{
+    width: 100%;
+    height: 130%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.background-gradient{
+    position: absolute;
+    opacity: 0.7;
+    border-radius: 10px;
+    width: 93.7%;
+    height: 40%;
+    top: 47%;
+    background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+.kasa-card-title{
+    color: #FFF;
+    position: absolute;
+    width: 80%;
+    bottom: 15%;
+    left: 16px;
+}

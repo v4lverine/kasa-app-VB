@@ -1,10 +1,14 @@
 import Banner from "../../components/Banner"
+import Card from "../../components/Cards"
+import "../../assets/Home.css"
 
 function Home() {
 return (
     <div>
         <Banner pageName="Home"/>
-        <h1>Homepage Kasa</h1>    
+        <div className="home-main">
+            <Card/>
+        </div>    
     </div>
     )
 }
