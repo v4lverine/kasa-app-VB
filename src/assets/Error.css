@@ -1,0 +1,23 @@
+.kasa-404-block{
+    color: #FF6060;
+    text-align: center;
+    margin : 5%
+}
+.kasa-404{
+    font-size: 12em;
+    font-weight: bolder;
+}
+.kasa-404-oopsie{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+.kasa-404-linkto{
+    font-size: 0.9em;
+    color: #FF6060;
+    font-weight: bold;
+}
+.kasa-404-linkto:hover{
+    font-weight: lighter;
+    text-decoration: none;
+}

@@ -29,3 +29,6 @@
     left: 8%;
     top: 3.5%;
 }
+.kasa-links1-header:hover, .kasa-links2-header:hover{
+    font-weight: bold;
+}
