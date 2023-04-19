@@ -9,6 +9,7 @@
     width: 100%;
     text-align: left;
     justify-content: center;
+    position: relative;
 }
 .kasa-collapse{
     margin-block: 1.5%;
@@ -18,4 +19,11 @@
     color: #FF6060;
     padding: 1%;
     border-radius: 5px;
+}
+.arrow-toggle{
+    position: absolute;
+    right: 2%;
+    bottom: 10%;
+    font-weight: bolder;
+    font-size: x-large;
 }

@@ -9,7 +9,7 @@ function Collapse(props){
             <button className="toggle-collapse" href="#" onClick={(event) => {
                 event.preventDefault()
                 setIsOpen(!isOpen)
-            }}>{props.label}
+            }}>{props.label} {isOpen ? <span className="arrow-toggle">&#708;</span> : <span className="arrow-toggle">&#709;</span>}
             </button>
             { isOpen && (<div className="toggle-collapse-content">
                 {props.children}
