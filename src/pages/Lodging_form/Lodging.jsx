@@ -1,7 +1,10 @@
+import Slideshow from "../../components/Slideshow";
+import "../../assets/Lodging.css"
+
 function Lodging() {
     return (
-        <div>
-            <h1>Page pour les logements</h1>    
+        <div className="lodging-main">
+            <Slideshow /> 
         </div>
         );
     }

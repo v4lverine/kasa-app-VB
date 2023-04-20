@@ -11,7 +11,8 @@ function Collapse(props){
             <button className="toggle-collapse" href="#" onClick={(event) => {
                 event.preventDefault()
                 setIsOpen(!isOpen)
-            }}>{props.label} {isOpen ? <FontAwesomeIcon icon={faAngleUp} className="arrow-toggle"/> : <FontAwesomeIcon icon={faAngleUp} rotation={180} className="arrow-toggle"/>}
+            }}>{props.label} {isOpen ? <FontAwesomeIcon icon={faAngleUp} className="arrow-toggle"/> 
+            : <FontAwesomeIcon icon={faAngleUp} rotation={180} className="arrow-toggle"/>}
             </button>
             { isOpen && (<div className="toggle-collapse-content">
                 {props.children}
