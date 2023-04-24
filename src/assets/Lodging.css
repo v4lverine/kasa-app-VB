@@ -1,3 +1,18 @@
 .lodging-main{
     margin-inline: 5%;
+    color: #ff6060;
+}
+.equipment-lodging{
+    list-style-type: none;
+    padding: 0;
+}
+
+.collapses-lodging{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.collapse-equip, .collapse-descript{
+    width: 50%;
 }

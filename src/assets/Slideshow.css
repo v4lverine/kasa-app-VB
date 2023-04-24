@@ -19,15 +19,15 @@
 .right-arrow{ 
     position: absolute;
     top: 37%;
-    right: 200px;
-    font-size: 4em;
+    right: 120px;
+    font-size: 5em;
     color: white;
 }
 .left-arrow{
     position: absolute;
     top: 37%;
-    left: 200px;
-    font-size: 4em;
+    left: 120px;
+    font-size: 5em;
     color: white;
 } 
 .left-arrow:hover, .right-arrow:hover{

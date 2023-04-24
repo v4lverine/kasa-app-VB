@@ -1,5 +1,6 @@
 import Slideshow from "../../components/Slideshow";
-import "../../assets/Lodging.css"
+import Collapse from "../../components/Collapse";
+import "../../assets/Lodging.css";
 
 function Lodging() {
 
@@ -33,12 +34,26 @@ function Lodging() {
             "Montmartre"
         ]
     }
+
+    const equips = lodging.equipments;
+
+    
     //affiche le contenu d'un logement
     return (
         <div className="lodging-main"> 
             <div>
                 <Slideshow images={lodging.pictures}/>
                 <h2>{lodging.title}</h2>
+                <div className="collapses-lodging">
+                    <Collapse label="Description" className="collapse-descript">
+                        <p className="collapse-content">{lodging.description}</p>
+                    </Collapse>
+                    <Collapse label="Équipements" className="collapse-equip">
+                        <ul className="equipment-lodging">
+                            {equips.map((equip) => <li className="collapse-content" key={equips}>{equip}</li>)}
+                        </ul>
+                    </Collapse>
+                </div>
             </div>
         </div>
         );
