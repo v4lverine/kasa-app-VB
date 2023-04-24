@@ -38,6 +38,7 @@ function Lodging() {
         <div className="lodging-main"> 
             <div>
                 <Slideshow images={lodging.pictures}/>
+                <h2>{lodging.title}</h2>
             </div>
         </div>
         );

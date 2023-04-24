@@ -11,11 +11,11 @@ function Slideshow({images}) {
 
     const nextSlide = () => {
         setCurrent(current === length - 1 ? 0 : current + 1);
-      };
-    
-      const prevSlide = () => {
+    };
+    const prevSlide = () => {
         setCurrent(current === 0 ? length - 1 : current - 1);
-      };
+    };
+
 
     return (
         <div className="block-slideshow">
@@ -24,9 +24,10 @@ function Slideshow({images}) {
                 <FontAwesomeIcon icon={faChevronRight} className="right-arrow" onClick={nextSlide}/>
 
                 {images.map((image, index) => (
-                    <div key={index} > {index === current && (<img src={image} alt={lodging.title} />)}
+                    <div key={index} > {index === current && (<img className="slide" src={image} alt={lodging.title} />)}
                     </div>
                 )) }
+                <span className="number-pics">{current + 1}/{length}</span>
             </div>
         </div>);
     }
