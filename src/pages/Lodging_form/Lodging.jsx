@@ -33,10 +33,12 @@ function Lodging() {
             "Montmartre"
         ]
     }
-
+    //affiche le contenu d'un logement
     return (
-        <div className="lodging-main"> //affiche le contenu d'un logement
-            <Slideshow images={lodging.pictures}/>
+        <div className="lodging-main"> 
+            <div>
+                <Slideshow images={lodging.pictures}/>
+            </div>
         </div>
         );
     }

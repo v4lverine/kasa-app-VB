@@ -1,0 +1,28 @@
+.block-slideshow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 2%;
+}
+.slideshow-slider{
+    display: flex;
+    align-items: center;
+    max-width: 1250px;
+    max-height: 400px;
+    object-fit: fill;
+    overflow: hidden;
+}
+.right-arrow{ 
+    position: absolute;
+    top: 37%;
+    right: 200px;
+    font-size: 3em;
+    color: white;
+}
+.left-arrow{
+    position: absolute;
+    top: 37%;
+    left: 200px;
+    font-size: 3em;
+    color: white;
+} 
