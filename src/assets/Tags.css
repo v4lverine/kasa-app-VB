@@ -1,0 +1,15 @@
+.tag-name{
+    background-color: #ff6060;
+    color: white;
+    padding-block: 0.5%;
+    padding-inline: 3% ;
+    margin-right: 1%;
+    border-radius: 13px;
+    font-size: 0.9em;
+}
+.tag-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+}

@@ -1,5 +1,6 @@
 import Slideshow from "../../components/Slideshow";
 import Collapse from "../../components/Collapse";
+import Tags from "../../components/Tags";
 import "../../assets/Lodging.css";
 
 function Lodging() {
@@ -44,6 +45,9 @@ function Lodging() {
             <div>
                 <Slideshow images={lodging.pictures}/>
                 <h2>{lodging.title}</h2>
+                <p>{lodging.location}</p>
+                <Tags tags={lodging.tags}>
+                </Tags>
                 <div className="collapses-lodging">
                     <Collapse label="Description" className="collapse-descript">
                         <p className="collapse-content">{lodging.description}</p>

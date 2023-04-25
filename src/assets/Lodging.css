@@ -6,13 +6,19 @@
     list-style-type: none;
     padding: 0;
 }
-
 .collapses-lodging{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
 }
-.collapse-equip, .collapse-descript{
-    width: 50%;
+.kasa-collapse{
+    width: 48%;
+}
+.toggle-collapse-content{
+    height: 75%;
+    max-height: 100%;
+}
+.collapse-content{
+    line-height: 150%;
 }
