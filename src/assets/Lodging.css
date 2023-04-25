@@ -22,3 +22,20 @@
 .collapse-content{
     line-height: 150%;
 }
+.lodging-title{
+    margin-bottom: 0;
+    font-size: 2em;
+}
+.lodging-location{
+    margin-top: 0.3%;
+}
+.block-rating-host{
+    position: absolute;
+    right: 5%;
+    top: 75%;
+}
+.block-rating-host img{
+    position: absolute;
+    width: 45%;
+    right: 0;
+}

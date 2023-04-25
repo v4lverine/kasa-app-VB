@@ -1,6 +1,8 @@
 import Slideshow from "../../components/Slideshow";
 import Collapse from "../../components/Collapse";
 import Tags from "../../components/Tags";
+import Stars from "../../components/Stars";
+import Host from "../../components/Host";
 import "../../assets/Lodging.css";
 
 function Lodging() {
@@ -22,10 +24,10 @@ function Lodging() {
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
         },
         "rating": "5",
-        "location": "Ile de France - Paris 17e",
+        "location": "Île-de-France - Paris 17e",
         "equipments": [
             "Équipements de base",
-            "Micro-Ondes",
+            "Micro-ondes",
             "Douche italienne",
             "Frigo",
             "WIFI"
@@ -41,23 +43,28 @@ function Lodging() {
     
     //affiche le contenu d'un logement
     return (
-        <div className="lodging-main"> 
-            <div>
-                <Slideshow images={lodging.pictures}/>
-                <h2>{lodging.title}</h2>
-                <p>{lodging.location}</p>
-                <Tags tags={lodging.tags}>
-                </Tags>
-                <div className="collapses-lodging">
-                    <Collapse label="Description" className="collapse-descript">
-                        <p className="collapse-content">{lodging.description}</p>
-                    </Collapse>
-                    <Collapse label="Équipements" className="collapse-equip">
-                        <ul className="equipment-lodging">
-                            {equips.map((equip) => <li className="collapse-content" key={equips}>{equip}</li>)}
-                        </ul>
-                    </Collapse>
+        <div className="lodging-main">
+            {/* <div className="upper-block">  */}
+                <div className="block-location-tag-title">
+                    <Slideshow images={lodging.pictures}/>
+                    <h2 className="lodging-title">{lodging.title}</h2>
+                    <p className="lodging-location">{lodging.location}</p>
+                    <Tags tags={lodging.tags}/>
                 </div>
+                <div className="block-rating-host">
+                    <Host infos={lodging.host}/>
+                    <Stars rating={lodging.rating}/>
+                </div>
+            {/* </div> */}
+            <div className="collapses-lodging">
+                <Collapse label="Description" className="collapse-descript">
+                    <p className="collapse-content">{lodging.description}</p>
+                </Collapse>
+                <Collapse label="Équipements" className="collapse-equip">
+                    <ul className="equipment-lodging">
+                        {equips.map((equip) => <li className="collapse-content" key={equips}>{equip}</li>)}
+                    </ul>
+                </Collapse>
             </div>
         </div>
         );
