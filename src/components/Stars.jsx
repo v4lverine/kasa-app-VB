@@ -3,15 +3,12 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 import "../assets/Stars.css"
 
 function Stars({rating}){
-    const starsIcon = [<FontAwesomeIcon icon={faStar}/>, 
-                       <FontAwesomeIcon icon={faStar}/>, 
-                       <FontAwesomeIcon icon={faStar}/>,
-                       <FontAwesomeIcon icon={faStar}/>,
-                       <FontAwesomeIcon icon={faStar}/>];
+    const numberOfStars = [1, 2, 3, 4, 5];
 
     return <div>
-                {rating === "5" ? <span className="stars-icon" style={{color:"#ff6060"}}>{starsIcon}</span> 
-                                : <span className="stars-icon" style={{color:"#e3e3e3"}}>{starsIcon}</span>}
+                {numberOfStars.map((stars) =>
+                rating >= stars ? <FontAwesomeIcon key={stars.toString()} icon={faStar} style={{color:"#ff6060"}} className="stars-icon"/> 
+                : <FontAwesomeIcon key={stars.toString()} icon={faStar} style={{color:"#e3e3e3"}} className="stars-icon"/>)}
             </div>
 }
 
