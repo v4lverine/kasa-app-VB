@@ -38,4 +38,35 @@
     position: absolute;
     width: 45%;
     right: 0;
+} 
+@media (max-width:767px){
+    .lodging-title{
+        font-size: 1.5em;
+        margin-bottom: 1%;
+    }
+    .lodging-location{
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+    .collapses-lodging{
+        display: flex;
+        flex-direction: column;
+    }
+    .block-rating-host{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        position: initial;
+        margin-right: 4%;
+    }
+    .block-rating-host img{
+        width: 15%;
+        margin-right: 5%;
+        /* position: initial; */
+    }
+    .collapse-content{
+        padding-inline: 5%;
+        font-size: 0.7em;
+    }
 }

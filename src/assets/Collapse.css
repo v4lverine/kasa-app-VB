@@ -39,5 +39,6 @@
     }
     .toggle-collapse-content p{
         padding-inline: 5%;
+        font-size: 0.7em;
     }
 }

@@ -40,3 +40,28 @@
     top: 65%;
     font-size: 1.2em;
 }
+@media (max-width:767px){
+    .slideshow-slider{
+        height: 200px;
+        border-radius: 15px;
+    }
+    .right-arrow{
+        font-size: 2em;
+        top: 22%;
+        right: 10%;
+    }
+    .left-arrow{
+        font-size: 2em;
+        top: 22%;
+        left: 10%;
+    }
+    .slide{
+        max-height: 300px;
+        max-width: 600px;
+        height: auto;
+        width: auto;
+    }
+    .number-pics{
+        visibility: hidden;
+    }
+}

@@ -21,3 +21,19 @@
     font-weight: lighter;
     text-decoration: none;
 }
+@media(max-width:767px){
+    .kasa-404-block{
+        margin-block: 42.7%;
+    }
+    .kasa-404{
+        font-size: 70px;
+    }
+    .kasa-404-oopsie{
+        font-size: 0.75em;
+        width: 75%;
+        padding-left: 15%;
+    }
+    .kasa-404-linkto{
+        font-size: 0.6em;
+    }
+}

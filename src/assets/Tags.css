@@ -13,3 +13,12 @@
     list-style-type: none;
     padding: 0;
 }
+@media (max-width:767px){
+    .tag-name{
+        font-size: 0.7em;
+        padding-inline: 6%;
+        padding-block: 2%;
+        border-radius: 8px;
+        margin-right: 2%;
+    }
+}

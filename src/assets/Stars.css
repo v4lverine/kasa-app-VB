@@ -1,3 +1,8 @@
 .stars-icon{
     font-size: 1.4em;
 }
+@media(max-width:767px){
+    .stars-icon{
+        font-size: 1em;
+    }
+}
