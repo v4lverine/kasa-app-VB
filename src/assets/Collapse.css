@@ -27,3 +27,17 @@
     font-weight: bolder;
     font-size: x-large;
 }
+@media (max-width:767px){
+    .kasa-collapse{
+        margin-block: 3%;
+    }
+    .toggle-collapse{
+        width: 290px;
+    }
+    .toggle-collapse-content{
+        width:287px;
+    }
+    .toggle-collapse-content p{
+        padding-inline: 5%;
+    }
+}

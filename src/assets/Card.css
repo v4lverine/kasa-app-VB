@@ -38,3 +38,22 @@
     transform: scale(1.1);
     transition: .3s ease;
 }
+@media (max-width:767px){
+    .kasa-card-list{
+        padding:0;
+        justify-content: center;
+        margin-inline: 0;
+    }
+    .kasa-card{
+        width: 100%;
+        height: 237px;
+        padding:0 ;
+    }
+    .kasa-card-img{
+        width: 100%;
+        height: 200px;
+    }
+    .background-gradient{
+        width: 100%;
+    }
+}

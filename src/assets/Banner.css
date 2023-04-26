@@ -21,5 +21,18 @@
     position: absolute;
     top: 10%;
     left: 25%;
-    font-size: 3em;
+    font-size: 3em; 
+}
+
+@media (max-width:767px){
+    .kasa-banner,.kasa-banner-img{
+        height: 6em;
+        border-radius: 13px;
+    }
+    .kasa-banner-text{
+        font-size: 1.2em;
+        font-weight: 400;
+        text-align: left;
+        left: 5%;
+    }
 }

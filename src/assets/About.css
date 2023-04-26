@@ -2,3 +2,9 @@
     margin-block: 3%;
     margin-inline: 15%;
 }
+@media (max-width:767px){
+    .about-main{
+        margin-block: 0;
+        margin-inline: 5%;
+    }
+}

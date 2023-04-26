@@ -7,3 +7,9 @@
     padding-left: 2%;
     margin-bottom: 5%;
 }
+@media (max-width:767px){
+    .home-main {
+        background-color: transparent;
+        padding-left: 0;
+    }
+}
