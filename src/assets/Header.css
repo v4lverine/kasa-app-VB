@@ -40,12 +40,12 @@
     }
     .kasa-logo{
         width: 2em;
-        top: 3%;
-        left: 17%;
+        top: 2.3%;
+        left: 15%;
     }
     .kasa-nav-header{
         text-transform: uppercase;
-        font-size: 0.7em;
+        font-size: 0.75em;
     }
     .kasa-links1-header, .kasa-links2-header{
         padding-inline: 3%;
