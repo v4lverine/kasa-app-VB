@@ -1,19 +1,16 @@
-import lodging from "../datas/lodging"
+import { Link } from "react-router-dom"
 import "../assets/Card.css"
 
-function Card() {
+function Card(props) {
     return (
-        <div>
-            <ul className="kasa-card-list">
-                {lodging.map(item => (
-                <li className="kasa-card" key={item.id}><div className="background-gradient"></div>                    
-                    <p className="kasa-card-title">{ item.title }
-                    </p>  
-                    <img className="kasa-card-img" src={item.cover} alt={item.title} />    
-                </li>
-                ))}
-            </ul>
-        </div>
+        <li className="kasa-card">
+            <div className="background-gradient">
+            </div>
+            <Link to={`/logement/${props.lodging.id}`} className="kasa-card-title">
+                {props.lodging.title}
+            </Link>
+            <img className="kasa-card-img" src={props.lodging.cover} alt={props.lodging.title} />
+        </li>
     )
 }
 

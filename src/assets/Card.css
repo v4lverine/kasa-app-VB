@@ -31,8 +31,9 @@
     color: #FFF;
     position: absolute;
     width: 80%;
-    bottom: 15%;
+    bottom: 20%;
     left: 16px;
+    text-decoration: none;
 }
 .kasa-card:hover{
     transform: scale(1.1);
