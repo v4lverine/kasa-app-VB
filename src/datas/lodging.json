@@ -10,16 +10,16 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
 		],
-		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
 		"host": {
 			"name": "Nathalie Jean",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
 		"rating": "5",
-		"location": "Ile de France - Paris 17e",
+		"location": "Île-de-France - Paris 17e",
 		"equipments": [
 			"Équipements de base",
-			"Micro-Ondes",
+			"Micro-ondes",
 			"Douche italienne",
 			"Frigo",
 			"WIFI"
@@ -31,7 +31,7 @@
 	},
 	{
 		"id": "b9123946",
-		"title": "Magnifique appartement proche Canal Saint Martin",
+		"title": "Magnifique appartement proche Canal Saint-Martin",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
@@ -41,30 +41,30 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-5.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-6.jpg"
 		],
-		"description": "Profitez du charme de la vie parisienne dans un magnifique appartement. A 3 minutes à pied du Canl Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
 		"host": {
+			"description": "Profitez du charme de la vie parisienne dans un magnifique appartement. À 3 minutes à pied du Canal Saint-Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
 			"name": "Della Case",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
 		},
 		"rating": "4",
-		"location": "Ile de France - Paris 10e",
+		"location": "Île-de-France - Paris 10e",
 		"equipments": [
 			"Parking",
-			"Sèche Cheveux",
+			"Sèche-cheveux",
 			"Machine à laver",
 			"Wi-fi",
 			"Cuisine équipée",
 			"Télévision"
 		],
 		"tags": [
-			"Canal Saint Martin",
+			"Canal Saint-Martin",
 			"République",
 			"Appartement"
 		]
 	},
 	{
 		"id": "46d188c5",
-		"title": "Studio de charme - Buttes Chaumont",
+		"title": "Studio de charme - Buttes-Chaumont",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
@@ -72,21 +72,21 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-3.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-4.jpg"
 		],
-		"description": "À seulement deux pas des Buttes Chaumont, venez découvrir Paris dans ce studio tout équipé. Entièrement équipé pour votre confort et élégamment décoré, il vous permettra de vivre comme un Parisien le temps de votre séjour.",
+		"description": "À seulement deux pas des Buttes-Chaumont, venez découvrir Paris dans ce studio. Entièrement équipé pour votre confort et élégamment décoré, il vous permettra de vivre comme un Parisien le temps de votre séjour.",
 		"host": {
 			"name": "Franck Maher",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
 		},
 		"rating": "3",
-		"location": "Ile de France - Paris 20e",
+		"location": "Île-de-France - Paris 20e",
 		"equipments": [
 			"Wi-fi",
 			"Cuisine équipée",
 			"Télévision",
-			"Sèche Cheveux"
+			"Sèche-cheveux"
 		],
 		"tags": [
-			"Buttes Chaumont",
+			"Buttes-Chaumont",
 			"Laumière",
 			"Studio"
 		]
@@ -101,17 +101,17 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-3.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-4.jpg"
 		],
-		"description": "Venez découvrir Paris en séjournant dans ce nid douillet au coeur du 11ème. La vue sur le parc résidentiel saura vous reposer de vos longues journées de tourisme dans la capitale française. Et pour les plus fêtards d'entre vous, la rue Jean Pierre Timbaud vous permettra de découvrir la night-life parisienne à seulement 5 minutes de l'appartement.",
+		"description": "Venez découvrir Paris en séjournant dans ce nid douillet au coeur du 11ème. La vue sur le parc résidentiel saura vous reposer de vos longues journées de tourisme dans la capitale française. Et pour les plus fêtards d'entre vous, la rue Jean-Pierre-Timbaud vous permettra de découvrir la night-life parisienne à seulement 5 minutes de l'appartement.",
 		"host": {
 			"name": "Della Case",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
 		},
 		"rating": "3",
-		"location": "Ile de France - Paris 11e",
+		"location": "Île-de-France - Paris 11e",
 		"equipments": [
-			"Micro-Ondes",
+			"Micro-ondes",
 			"Wi-fi",
-			"Chambre Séparée",
+			"Chambre séparée",
 			"Climatisation",
 			"Télévision"
 		],
@@ -134,18 +134,18 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-5.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-6.jpg"
 		],
-		"description": "Ce loft entièrement rénové, et équipé de meubles de luxe saura vous séduire. Idéalement situé dans le 10ème arrondissement, vous déplacer dans Paris sera un véritable jeu d'enfant.",
+		"description": "Ce loft entièrement rénové et équipé de meubles de luxe saura vous séduire. Idéalement situé dans le 10ème arrondissement, vous déplacer dans Paris sera un véritable jeu d'enfant.",
 		"host": {
 			"name": "Franck Maher",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
 		},
 		"rating": "5",
-		"location": "Ile de France - Paris 10e",
+		"location": "Île-de-France - Paris 10e",
 		"equipments": [
-			"Frigo Américain",
-			"Sèche Cheveux",
+			"Frigo américain",
+			"Sèche-cheveux",
 			"Wi-fi",
-			"Chambre Séparée",
+			"Chambre séparée",
 			"Parking"
 		],
 		"tags": [
@@ -170,9 +170,9 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-3.jpg"
 		},
 		"rating": "5",
-		"location": "Ile de France - Paris 18e",
+		"location": "Île-de-France - Paris 18e",
 		"equipments": [
-			"Chambre Séparée",
+			"Chambre séparée",
 			"Parking"
 		],
 		"tags": [
@@ -191,18 +191,18 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-3.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-4.jpg"
 		],
-		"description": "Ce Studio entièrement fonctionnel sera votre parfait pied à terre pour toutes vos excursions parisiennes. Idéalement situé près des lignes 2 et 4, vous accéderez très rapidement à tous les points touristiques de Paris.",
+		"description": "Ce studio entièrement fonctionnel sera votre parfait pied à terre pour toutes vos excursions parisiennes. Idéalement situé près des lignes 2 et 4, vous accéderez très rapidement à tous les points touristiques de Paris.",
 		"host": {
 			"name": "Hugo Perrier",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
 		},
 		"rating": "3",
-		"location": "Ile de France - Paris 18e",
+		"location": "Île-de-France - Paris 18e",
 		"equipments": [
 			"Salle de bains",
 			"Frigo",
 			"Wi-fi",
-			"Sèche Cheveux",
+			"Sèche-cheveux",
 			"Bureau",
 			"Parking"
 		],
@@ -230,10 +230,10 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-5.jpg"
 		},
 		"rating": "5",
-		"location": "Ile de France - Paris 6e",
+		"location": "Île-de-France - Paris 6e",
 		"equipments": [
 			"Wi-fi",
-			"Sèche Cheveux",
+			"Sèche-cheveux",
 			"Machine à laver",
 			"Parking",
 			"Lit King Size",
@@ -263,11 +263,11 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
 		"rating": "4",
-		"location": "Ile de France - Paris 14e",
+		"location": "Île-de-France - Paris 14e",
 		"equipments": [
 			"Climatisation",
 			"Machine à laver",
-			"Sèche Cheveux",
+			"Sèche-cheveux",
 			"Wi-fi",
 			"Parking"
 		],
@@ -293,17 +293,17 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
 		"rating": "3",
-		"location": "Ile de France - Paris 11e",
+		"location": "Île-de-France - Paris 11e",
 		"equipments": [
 			"Vue Parc",
 			"Chauffage",
-			"Sèche linge",
-			"Sèche Cheveux",
+			"Sèche-linge",
+			"Sèche-cheveux",
 			"Wi-fi",
 			"Ascenseur"
 		],
 		"tags": [
-			"Père Lachaise",
+			"Père-Lachaise",
 			"11e",
 			"Metro 3",
 			"Metro 2"
@@ -325,11 +325,11 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-7.jpg"
 		},
 		"rating": "4",
-		"location": "Ile de France - Paris 11e",
+		"location": "Île-de-France - Paris 11e",
 		"equipments": [
 			"Clic-clac",
 			"Four",
-			"Sèche Cheveux",
+			"Sèche-cheveux",
 			"Wi-fi"
 		],
 		"tags": [
@@ -354,7 +354,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
 		},
 		"rating": "3",
-		"location": "Ile de France - Paris 3e",
+		"location": "Île-de-France - Paris 3e",
 		"equipments": [
 			"Rangements",
 			"Lit",
@@ -388,7 +388,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
 		},
 		"rating": "5",
-		"location": "Ile de France - Ecouen",
+		"location": "Île-de-France - Ecouen",
 		"equipments": [
 			"SDB",
 			"Cuisine équipée",
@@ -419,7 +419,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
 		},
 		"rating": "4",
-		"location": "Ile de France - Arnouville",
+		"location": "Île-de-France - Arnouville",
 		"equipments": [
 			"SDB",
 			"Cuisine équipée",
@@ -453,7 +453,7 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
 		},
 		"rating": "3",
-		"location": "Ile de France - Arnouville",
+		"location": "Île-de-France - Arnouville",
 		"equipments": [
 			"Bouilloire",
 			"SDB",
@@ -489,14 +489,14 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
 		},
 		"rating": "3",
-		"location": "Ile de France - La Défense",
+		"location": "Île-de-France - La Défense",
 		"equipments": [
 			"Baie vitrée",
 			"Télévision",
 			"Four",
 			"Frigo",
 			"Wi-fi",
-			"Micro-Ondes",
+			"Micro-ondes",
 			"Parking"
 		],
 		"tags": [
@@ -507,7 +507,7 @@
 	},
 	{
 		"id": "1e180563",
-		"title": "Charmant apt aux portes de Paris",
+		"title": "Charmant appartement aux portes de Paris",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-1.jpg",
@@ -522,14 +522,14 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
 		},
 		"rating": "4",
-		"location": "Ile de France - Levallois",
+		"location": "Île-de-France - Levallois",
 		"equipments": [
 			"Télévision",
 			"Four",
 			"Frigo",
 			"Hotte",
 			"Wi-fi",
-			"Micro-Ondes"
+			"Micro-ondes"
 		],
 		"tags": [
 			"Vue Parc",
@@ -549,11 +549,11 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
 		},
 		"rating": "2",
-		"location": "Ile de France - Paris 20e",
+		"location": "Île-de-France - Paris 20e",
 		"equipments": [
 			"Bouilloire",
 			"Wi-fi",
-			"Micro-Ondes"
+			"Micro-ondes"
 		],
 		"tags": [
 			"Vue Parc",
@@ -575,13 +575,13 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-11.jpg"
 		},
 		"rating": "4",
-		"location": "Ile de France - Paris 13e",
+		"location": "Île-de-France - Paris 13e",
 		"equipments": [
 			"Équipements de base",
 			"Four",
 			"Frigo",
 			"Wi-fi",
-			"Micro-Ondes"
+			"Micro-ondes"
 		],
 		"tags": [
 			"Studio",
@@ -602,11 +602,11 @@
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
 		"rating": "4",
-		"location": "Ile de France - Paris 13e",
+		"location": "Île-de-France - Paris 13e",
 		"equipments": [
 			"Wi-fi",
 			"Équipements de base",
-			"Micro-Ondes",
+			"Micro-ondes",
 			"Frigo",
 			"Baignoire"
 		],
