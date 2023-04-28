@@ -11,6 +11,11 @@
     padding-bottom: 1%;
     letter-spacing: 5px;
 }
+.title-footer img{
+    max-width: 20px;
+    margin-left: -2px;
+    margin-right: 5px;
+}
 @media (max-width:767px){
     .footer{
         padding-bottom: 12%;
