@@ -2,6 +2,13 @@
     margin-inline: 5%;
     color: #ff6060;
 }
+.head-block-lodging{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
 .equipment-lodging{
     list-style-type: none;
     padding: 0;
@@ -11,6 +18,9 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.collapse-descript, .collapse-equip{
+    width: 48%;
+}
 .lodging-title{
     margin-bottom: 0;
     font-size: 2em;
@@ -19,16 +29,15 @@
     margin-top: 0.3%;
 }
 .block-rating-host{
-    position: absolute;
-    right: 5%;
-    top: 75%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
 }
-.block-rating-host img{
-    position: absolute;
-    width: 45%;
-    right: 0;
-} 
 @media (max-width:767px){
+    .head-block-lodging{
+        display: flex;
+        flex-direction: column;
+    }
     .lodging-title{
         font-size: 1.5em;
         margin-bottom: 1%;
@@ -43,16 +52,9 @@
     }
     .block-rating-host{
         display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
+        flex-direction: row;
         align-items: center;
-        position: initial;
-        margin-right: 4%;
-    }
-    .block-rating-host img{
-        width: 15%;
-        margin-right: 5%;
-        /* position: initial; */
+        width: 100%;
     }
     .collapse-content{
         padding-inline: 5%;

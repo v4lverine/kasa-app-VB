@@ -12,26 +12,32 @@ function Lodging() {
 
     return (
         <div className="lodging-main">
-            <div className="block-location-tag-title">
-                <Slideshow images={lodging.pictures} />
-                <h2 className="lodging-title">{lodging.title}</h2>
-                <p className="lodging-location">{lodging.location}</p>
-                <Tags tags={lodging.tags} />
-            </div>
-            <div className="block-rating-host">
-                <Host infos={lodging.host} />
-                <Stars rating={lodging.rating} />
+            <Slideshow images={lodging.pictures} />
+            <div className="head-block-lodging">
+                <div className="block-location-tag-title">
+                    <h2 className="lodging-title">{lodging.title}</h2>
+                    <p className="lodging-location">{lodging.location}</p>
+                    <Tags tags={lodging.tags} />
+                </div>
+                <div className="block-rating-host">
+                    <Stars rating={lodging.rating} />
+                    <Host infos={lodging.host} />
+                </div>
             </div>
             <div className="collapses-lodging">
-                <Collapse label="Description" className="collapse-descript">
-                    <p className="collapse-content">{lodging.description}</p>
-                </Collapse>
-                <Collapse label="Équipements" className="collapse-equip">
-                    <ul className="equipment-lodging">
-                        {lodging.equipments.map((equip) =>
-                            <li className="collapse-content" key={lodging.equipments}>{equip}</li>)}
-                    </ul>
-                </Collapse>
+                <div className="collapse-descript">
+                    <Collapse label="Description">
+                        <p className="collapse-content">{lodging.description}</p>
+                    </Collapse>
+                </div>
+                <div className="collapse-equip">
+                    <Collapse label="Équipements">
+                        <ul className="equipment-lodging">
+                            {lodging.equipments.map((equip) =>
+                                <li className="collapse-content" key={lodging.equipments}>{equip}</li>)}
+                        </ul>
+                    </Collapse>
+                </div>
             </div>
         </div>
     );

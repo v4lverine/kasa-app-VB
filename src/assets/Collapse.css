@@ -13,6 +13,7 @@
 }
 .kasa-collapse{
     margin-block: 1.5%;
+    width: 100%;
 }
 .toggle-collapse-content{
     background-color: #f6f6f6;

@@ -1,5 +1,13 @@
+.stars-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 7%;
+    margin-left: 5%;
+}
 .stars-icon{
-    font-size: 1.4em;
+    font-size: 1.6em;
+    padding-left: 5%;
 }
 @media(max-width:767px){
     .stars-icon{
