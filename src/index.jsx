@@ -4,7 +4,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import './index.css';
 import Home from './pages/Homepage/Home.jsx';
 import About from './pages/About_page/About.jsx';
-import Error from './pages/404/Error.jsx';
+import ErrorComponent from './pages/404/Error.jsx';
 import Lodging from './pages/Lodging_form/Lodging.jsx';
 import { singleLodgingLoader } from "./routes/singleLodging";
 import { lodgingsLoader } from "./routes/lodgings";
@@ -14,7 +14,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Layout />,
-    errorElement: <Error />,
+    errorElement: <ErrorComponent />,
     children: [
       {
         path: '/a-propos',
@@ -32,6 +32,10 @@ const router = createBrowserRouter([
       },
     ]
   },
+  {
+    path: '*',
+    element: <ErrorComponent />,
+  }
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
