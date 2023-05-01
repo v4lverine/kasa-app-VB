@@ -22,6 +22,9 @@
 .collapse-descript, .collapse-equip{
     width: 48%;
 }
+.collapse-content{
+    padding-inline: 3%;
+}
 .lodging-title{
     margin-bottom: 0;
     font-size: 2em;
@@ -42,6 +45,7 @@
     .lodging-title{
         font-size: 1.5em;
         margin-bottom: 1%;
+        width: 90%;
     }
     .lodging-location{
         font-size: 0.9em;
@@ -54,7 +58,7 @@
     .block-rating-host{
         display: flex;
         flex-direction: row;
-        align-items: center;
+        justify-content: center;
         width: 100%;
     }
     .collapse-content{

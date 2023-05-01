@@ -1,7 +1,7 @@
 .host-block{
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     width: 100%;
 }
@@ -13,4 +13,10 @@
 .host-name{
     text-align: right;
     width: 32%;
+}
+@media (max-width:767px){
+    .host-image{
+        width: 20%;
+        margin-left: 3%;
+    }
 }

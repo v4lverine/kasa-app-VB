@@ -7,13 +7,15 @@
 .slideshow-slider{
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 1400px;
     height: 415px;
     overflow: hidden; /*pour cacher surplus d'image*/
     border-radius: 25px;
 }
 .slide{
-    width: 120%;
+    width: 1400px;
+    height: 420px;
+    object-fit: cover;
     user-select: none; /*remove blue selector background on click*/
 }
 .right-arrow{ 
@@ -47,19 +49,17 @@
     }
     .right-arrow{
         font-size: 2em;
-        top: 22%;
+        top: 18%;
         right: 10%;
     }
     .left-arrow{
         font-size: 2em;
-        top: 22%;
+        top: 18%;
         left: 10%;
     }
     .slide{
         max-height: 300px;
-        max-width: 600px;
-        height: auto;
-        width: auto;
+        max-width: 360px;
     }
     .number-pics{
         visibility: hidden;

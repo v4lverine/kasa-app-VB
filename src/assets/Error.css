@@ -26,14 +26,17 @@
         margin-block: 42.7%;
     }
     .kasa-404{
-        font-size: 70px;
+        font-size: 100px;
     }
     .kasa-404-oopsie{
-        font-size: 0.75em;
+        font-size: 1em;
         width: 75%;
         padding-left: 15%;
     }
     .kasa-404-linkto{
         font-size: 0.6em;
+    }
+    .footer-404{
+        margin-top: 58.5%;
     }
 }

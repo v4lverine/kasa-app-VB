@@ -10,7 +10,6 @@
     font-size: 4em;
     margin: 0;
     letter-spacing: 5px;
-    position: relative;
 }
 .kasa-links1-header, .kasa-links2-header{
     color: #FF6060;
@@ -24,10 +23,8 @@
     margin-inline: 5%;
 }
 .kasa-logo{
-    width: 2.7em;
-    position: absolute;
-    left: 8%;
-    top: 3.5%;
+    width: 0.65em;
+    margin-left: -3%;
 }
 .kasa-links1-header:hover, .kasa-links2-header:hover{
     font-weight: bold;
@@ -53,5 +50,8 @@
     .kasa-links1-header:hover, .kasa-links2-header:hover{
         font-weight: normal;
         text-decoration: underline;
+    }
+    .kasa-logo{
+        width: 0.65em;
     }
 }

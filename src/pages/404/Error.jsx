@@ -12,7 +12,9 @@ function Error() {
                 <p className='kasa-404-oopsie'>Oups ! La page que vous demandez n'existe pas.</p>
                 <Link to={'/'} className='kasa-404-linkto'>Retourner à la page d'accueil</Link>
             </div>
-            <Footer />
+            <div className="footer-404">
+                <Footer />
+            </div>
         </>
     );
 }
