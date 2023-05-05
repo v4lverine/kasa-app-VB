@@ -1,6 +1,7 @@
 .kasa-banner{
     margin-inline: 5%;
     margin-block: 2%;
+    width: 1365px;
     position: relative;
     text-align: center;
     color: white;
@@ -12,7 +13,7 @@
 .kasa-banner-img{
     opacity: 0.7;
     border-radius: 25px;
-    width: 1382px;
+    width: 1365px;
     height: 192px;
     object-fit: cover;
 }
