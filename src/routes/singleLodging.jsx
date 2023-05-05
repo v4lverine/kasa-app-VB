@@ -8,5 +8,7 @@ export async function singleLodgingLoader({ params }) {
         return redirect("/error");
     }
 
-    return { lodging }
+    return (
+        { lodging }
+    )
 };

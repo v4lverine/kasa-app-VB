@@ -18,9 +18,10 @@
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 3%;
+    gap: 3%;
 }
 .collapse-descript, .collapse-equip{
-    width: 48%;
+    width: 100%;
 }
 .collapse-content{
     padding-inline: 3%;
@@ -37,6 +38,10 @@
     flex-direction: column-reverse;
     justify-content: space-between;
 }
+.block-location-tag-title{
+    width: 100%;
+}
+
 @media (max-width:767px){
     .head-block-lodging{
         display: flex;

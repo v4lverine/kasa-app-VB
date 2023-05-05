@@ -1,10 +1,10 @@
 import "../assets/Banner.css";
 
-function Banner(props){
+function Banner(props) {
     const pageName = props.pageName
     let imgBanner = "";
     let bannerText = "";
-    
+
     switch (pageName) {
         case "Home":
             imgBanner = "../images/kasa-banner-home.png";
@@ -19,10 +19,10 @@ function Banner(props){
 
     return (
         <div className="kasa-banner">
-                <img className="kasa-banner-img" src={imgBanner} alt="Bannière du site qui représente un paysage"/>
-                <p className="kasa-banner-text">{bannerText}</p>
+            <img className="kasa-banner-img" src={imgBanner} alt="Bannière du site qui représente un paysage" />
+            <p className="kasa-banner-text">{bannerText}</p>
         </div>
     );
-} 
+}
 
 export default Banner

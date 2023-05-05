@@ -3,20 +3,20 @@ import "../assets/Collapse.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons'
 
-function Collapse(props){
+function Collapse(props) {
     const [isOpen, setIsOpen] = useState(false);
-    
-    return(
+
+    return (
         <div className="kasa-collapse">
             <button className="toggle-collapse" href="#" onClick={(event) => {
                 event.preventDefault()
                 setIsOpen(!isOpen)
-            }}>{props.label} {isOpen ? <FontAwesomeIcon icon={faAngleUp} className="arrow-toggle"/> 
-            : <FontAwesomeIcon icon={faAngleUp} rotation={180} className="arrow-toggle"/>}
+            }}>{props.label} {isOpen ? <FontAwesomeIcon icon={faAngleUp} className="arrow-toggle" />
+                : <FontAwesomeIcon icon={faAngleUp} rotation={180} className="arrow-toggle" />}
             </button>
-            { isOpen && (<div className="toggle-collapse-content">
+            {isOpen && (<div className="toggle-collapse-content">
                 {props.children}
-            </div>) }
+            </div>)}
         </div>
     )
 }

@@ -20,7 +20,7 @@ function Slideshow({ images }) {
         <div className="block-slideshow">
             <div className="slideshow-slider">
                 {images.map((image, index) => (
-                    <div key={index} > {index === current && (<img className="slide" src={image} alt={lodging.title} />)}
+                    <div key={index}> {index === current && (<img className="slide" src={image} alt={lodging.title} />)}
                     </div>
                 ))}
                 {length > 1 ?
