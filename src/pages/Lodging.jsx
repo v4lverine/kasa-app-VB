@@ -1,9 +1,9 @@
-import Slideshow from "../../components/Slideshow";
-import Collapse from "../../components/Collapse";
-import Tags from "../../components/Tags";
-import Stars from "../../components/Stars";
-import Host from "../../components/Host";
-import "../../assets/Lodging.css";
+import Slideshow from "../components/Slideshow";
+import Collapse from "../components/Collapse";
+import Tags from "../components/Tags";
+import Stars from "../components/Stars";
+import Host from "../components/Host";
+import "../assets/Lodging.css";
 import { useLoaderData } from "react-router-dom";
 
 function Lodging() {

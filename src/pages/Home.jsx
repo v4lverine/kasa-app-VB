@@ -1,6 +1,6 @@
-import Banner from "../../components/Banner"
-import Card from "../../components/Cards"
-import "../../assets/Home.css"
+import Banner from "../components/Banner"
+import Card from "../components/Cards"
+import "../assets/Home.css"
 import { useLoaderData } from "react-router-dom"
 
 function Home() {

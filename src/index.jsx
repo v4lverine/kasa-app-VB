@@ -2,10 +2,10 @@ import * as React from "react";
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import './index.css';
-import Home from './pages/Homepage/Home.jsx';
-import About from './pages/About_page/About.jsx';
-import ErrorComponent from './pages/404/Error.jsx';
-import Lodging from './pages/Lodging_form/Lodging.jsx';
+import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
+import ErrorComponent from './pages/Error.jsx';
+import Lodging from './pages/Lodging.jsx';
 import { singleLodgingLoader } from "./routes/singleLodging";
 import { lodgingsLoader } from "./routes/lodgings";
 import Layout from "./components/Layout.jsx"
