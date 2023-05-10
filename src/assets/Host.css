@@ -7,15 +7,18 @@
 }
 .host-image{
     border-radius: 50px;
-    margin-left: 5%;
     width: 30%;
 }
 .host-name{
     text-align: right;
-    width: 32%;
+    margin-right: 5%;
+    width: 40%;
 }
 @media (max-width:767px){
     .host-image{
         width: 20%;
+    }
+    .host-name{
+        width: 30%;
     }
 }
