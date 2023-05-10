@@ -11,7 +11,7 @@
 }
 .equipment-lodging{
     list-style-type: none;
-    padding: 0;
+    padding-inline: 3%;
 }
 .collapses-lodging{
     display: flex;
@@ -22,9 +22,6 @@
 }
 .collapse-descript, .collapse-equip{
     width: 100%;
-}
-.collapse-content{
-    padding-inline: 3%;
 }
 .lodging-title{
     margin-bottom: 0;

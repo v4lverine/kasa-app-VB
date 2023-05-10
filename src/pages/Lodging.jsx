@@ -11,9 +11,9 @@ function Lodging() {
     const { lodging } = useLoaderData();
 
     return (
-        <div className="lodging-main">
+        <main className="lodging-main">
             <Slideshow images={lodging.pictures} />
-            <div className="head-block-lodging">
+            <article className="head-block-lodging">
                 <div className="block-location-tag-title">
                     <h2 className="lodging-title">{lodging.title}</h2>
                     <p className="lodging-location">{lodging.location}</p>
@@ -23,8 +23,8 @@ function Lodging() {
                     <Stars rating={lodging.rating} />
                     <Host infos={lodging.host} />
                 </div>
-            </div>
-            <div className="collapses-lodging">
+            </article>
+            <aside className="collapses-lodging">
                 <div className="collapse-descript">
                     <Collapse label="Description">
                         <p className="collapse-content">{lodging.description}</p>
@@ -38,8 +38,8 @@ function Lodging() {
                         </ul>
                     </Collapse>
                 </div>
-            </div>
-        </div>
+            </aside>
+        </main>
     );
 }
 

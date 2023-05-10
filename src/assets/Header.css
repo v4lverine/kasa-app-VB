@@ -10,6 +10,8 @@
     font-size: 4em;
     margin: 0;
     letter-spacing: 5px;
+    text-decoration: none;
+    color: #FF6060;
 }
 .kasa-links1-header, .kasa-links2-header{
     color: #FF6060;
