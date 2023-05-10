@@ -32,6 +32,14 @@
     font-weight: bolder;
     font-size: x-large;
 }
+/* @media screen and (min-width: 768px) and (max-width: 992px){
+    .kasa-collapse, .toggle-collapse{
+        width: 100%;
+    }
+    .toggle-collapse-content{
+        width: 100%;
+    }
+} */
 @media (max-width:767px){
     .kasa-collapse{
         margin-block: 3%;

@@ -35,10 +35,10 @@
 @media (max-width: 767px) /*mobile responsive*/
 {   
     .kasa-title-header{
-        font-size: 3em;
+        font-size: 2.5em;
     }
     .kasa-logo{
-        width: 2em;
+        width: 0.65em;
         top: 2.3%;
         left: 15%;
     }
@@ -52,8 +52,5 @@
     .kasa-links1-header:hover, .kasa-links2-header:hover{
         font-weight: normal;
         text-decoration: underline;
-    }
-    .kasa-logo{
-        width: 0.65em;
     }
 }

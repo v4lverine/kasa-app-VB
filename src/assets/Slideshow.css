@@ -10,7 +10,7 @@
     align-items: center;
     width: 1400px;
     height: 415px;
-    overflow: hidden; /*pour cacher surplus d'image*/
+    overflow: hidden; /*hide image excess*/
     border-radius: 25px;
 }
 .slide{
@@ -52,8 +52,9 @@
         font-size: 2em;
     }
     .slide{
+        object-fit: cover;
         max-height: 300px;
-        max-width: 360px;
+        max-width: 400px;
     }
     .number-pics{
         visibility: hidden;
