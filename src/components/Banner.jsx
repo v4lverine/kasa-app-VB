@@ -18,10 +18,10 @@ function Banner(props) {
     }
 
     return (
-        <div className="kasa-banner">
+        <section className="kasa-banner">
             <img className="kasa-banner-img" src={imgBanner} alt="Bannière du site qui représente un paysage" />
             <p className="kasa-banner-text">{bannerText}</p>
-        </div>
+        </section>
     );
 }
 

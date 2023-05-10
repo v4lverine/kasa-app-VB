@@ -17,7 +17,7 @@ function Slideshow({ images }) {
     };
 
     return (
-        <div className="block-slideshow">
+        <section className="block-slideshow">
             <div className="slideshow-slider">
                 {images.map((image, index) => (
                     <div key={index}> {index === current && (<img className="slide" src={image} alt={lodging.title} />)}
@@ -32,7 +32,7 @@ function Slideshow({ images }) {
                     : " "
                 }
             </div>
-        </div>
+        </section>
     );
 }
 
