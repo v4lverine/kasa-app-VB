@@ -21,6 +21,9 @@
     padding-block: 1%;
     border-radius: 5px;
 }
+.toggle-collapse-content p{
+    padding-inline: 3%;
+}
 .arrow-toggle{
     position: absolute;
     right: 2%;
