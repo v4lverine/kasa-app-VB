@@ -7,7 +7,7 @@ function Home() {
     const { lodgings } = useLoaderData();
 
     return (
-        <div>
+        <main>
             <Banner pageName="Home" />
             <div className="home-main">
                 <ul className="kasa-card-list">
@@ -16,7 +16,7 @@ function Home() {
                     ))}
                 </ul>
             </div>
-        </div>
+        </main>
     )
 }
 
